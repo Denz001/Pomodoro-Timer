@@ -1,0 +1,53 @@
+html {
+    background-color: antiquewhite;
+    height: 100%;
+}
+
+/*circle clock*/
+.circle {
+    height: 550px;
+    width: 550px;
+    background-color: rgb(241, 152, 205);
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    text-align: center;
+    position: relative;
+    border: 5px solid rgb(194, 134, 209);
+    box-shadow: 25px 4px  rgb(194, 134, 209);
+}
+
+.circle:hover {
+    background-color: rgb(182, 89, 134);
+}
+
+.another {
+    height: 120px;
+    width: 120px;
+    background-color: rgb(179, 172, 244);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    position: absolute;
+    top: 5%;
+    right: 20%;
+}
+
+.another:hover {
+    background-color: rgb(157, 81, 227);
+}
+
+/*timer*/
+.timer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 75px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-130%);
+    letter-spacing: -5px;
+}
